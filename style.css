@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-image: url(./img/fondo.jpg);
+    background-size:auto 250%;
+}
+
+.nav-item {
+    margin-left: 110px;
+}
+
+header h4 {
+    text-decoration: overline;
+}
+
+.card-img {
+    height: 25vW
+}
+
+.container-fluid {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card-header {
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+    margin: 0;
+}
+
+.card-header img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.formulario {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    width: 800px;
+    border-radius: 1%;
+    background-color: #070707;
+    color: white;
+}
+
+footer {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    background-image: url(./img/fondo.jpg);
+    background-size: auto 650%;
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+    height: 9vh;
+}
